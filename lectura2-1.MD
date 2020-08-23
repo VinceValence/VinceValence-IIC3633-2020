@@ -13,7 +13,7 @@ is either 0 or 1 forces the dot product to be close to either one of those value
 be close to 0 or be close to 90 degrees. Confidence levels provide some flexibility to this because it allows us to have greater angles
 for lower confidences when a user does not prefer an item (i.e. the latent x_u and y_i may have a big angle between them, but the error may
 be low because we may not have enough confidence on p_ui being 0). Of course, the converse would also be true. Visualising the latent vectors
-would give much grater insight into the behaviour of the latent factors and the relationships between factors of users and items (or users and
+would give much greater insight into the behaviour of the latent factors and the relationships between factors of users and items (or users and
 users or items and items, for that matter), adding value to the explanation or interpretations of the algorithm.
 
 The authors are aware of the feedback not having information about disliking a programme, but I think there could be some information in the
