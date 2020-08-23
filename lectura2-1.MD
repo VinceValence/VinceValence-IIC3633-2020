@@ -1,3 +1,4 @@
+# Collaborative Filtering for Implicit Feedback Datasets
 I like how the authors are really careful when dealing with interpretations of the different parts of the model, such as being aware of
 the fact that they are extracting preference information with certain confidence, which is very different from a rating. They also are aware
 of having no negative feedback (although there could be). This notions are essential for the conclussions that can be drawn afterwards.
