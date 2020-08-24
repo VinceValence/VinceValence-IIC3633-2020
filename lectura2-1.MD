@@ -1,4 +1,8 @@
 # Collaborative Filtering for Implicit Feedback Datasets
+
+This study presents a new RecSys model for recommendation with implicit feedback testes on a TV programme dataset. It mainly incorporates notions of confidence
+on positive and negative feedback (mainly because negative feedback is technically absent). They use latent factors to predict preference.
+
 I like how the authors are really careful when dealing with interpretations of the different parts of the model, such as being aware of
 the fact that they are extracting preference information with certain confidence, which is very different from a rating. They also are aware
 of having no negative feedback (although there could be). This notions are essential for the conclussions that can be drawn afterwards.
